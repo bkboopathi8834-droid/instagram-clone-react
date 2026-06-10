@@ -10,7 +10,7 @@ function EditProfile(){
     const [sabout, setSabout] = useState("");
 
     useEffect(()=>{
-        axios.get('http://localhost:3000/Profile/300')
+        axios.get('/db.json/Profile/300')
         .then((Response)=> {
             setUsername(Response.data.username);
             setAbout(Response.data.about);
@@ -22,7 +22,7 @@ function EditProfile(){
     },[])
 
     const handleupdate=()=>{
-        axios.patch("http://localhost:3000/Profile/300",{
+        axios.patch("/db.json/Profile/300",{
             username,
             about,
             name,

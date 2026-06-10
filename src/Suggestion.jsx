@@ -7,13 +7,13 @@ function Suggestion(){
     const [suggestion,setSuggestion] = useState([])
 
     useEffect(()=>{
-        fetch('http://localhost:3000/Profile')
+        fetch('/db.json/Profile')
         .then((pro)=>pro.json())
         .then((pro)=>setProfile(pro))
         .catch((err)=>console.log(err.message))
     
     
-        fetch('http://localhost:3000/suggestions')
+        fetch('/db.json/suggestions')
         .then((sug)=>sug.json())
         .then((sug)=> setSuggestion(sug))
         .catch((err)=> console.log(err.message))

@@ -11,7 +11,7 @@ function ViewStory() {
 
     useEffect(() => {
 
-        fetch(`http://localhost:3000/stories/${id}`)
+        fetch(`/db.json/stories/${id}`)
             .then(data => {
                 if(!data.ok){
                     navigate('/home')

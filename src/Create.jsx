@@ -21,7 +21,7 @@ function Create(){
             image:postimage
         }
 
-        axios.post('http://localhost:3000/post',newpost)
+        axios.post('/db.json/post',newpost)
         .then(()=>{
             alert("Post Created")
             navigate('/home/profile')

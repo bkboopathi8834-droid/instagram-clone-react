@@ -10,14 +10,14 @@ function Profile(){
     const navigate =useNavigate();
 
     useEffect(()=>{
-        fetch('http://localhost:3000/Profile')
+        fetch('/db.json/Profile')
         .then((data)=> data.json())
         .then((data)=> setProfile(data))
         .catch((err)=>console.log(err))
     },[])
 
     useEffect(()=>{
-        fetch('http://localhost:3000/post')
+        fetch('/db.json/post')
         .then((pdata)=> pdata.json())
         .then((pdata)=> setPost(pdata))
         .catch((err)=>console.log(err))

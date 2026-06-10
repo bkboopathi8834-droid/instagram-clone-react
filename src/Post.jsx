@@ -8,24 +8,23 @@ function Post(){
 
     useEffect(()=>{
 
-        fetch('http://localhost:3000/Data')
+        fetch('/db.json')
         .then((ndata)=>ndata.json())
         .then((ndata)=> setPost(ndata))
         .catch((err)=>console.log(err))
     },[])
 
     const handlelike = (currentid, currentlike, currentisliked) => {
-        const updatedLikes = currentisliked ? currentlike - 1 : currentlike + 1;
-        const updatedIsLiked = !currentisliked;
-        axios.patch(`http://localhost:3000/Data/${currentid}`,{ 
-            likes: updatedLikes, 
-            isliked: updatedIsLiked
-        })
-            .then(() => {setPost( post.map((item) =>item.id === currentid ? {
-                            ...item, likes: updatedLikes, isliked: updatedIsLiked
-                        }: item))
-            })
-            .catch((err) => console.log(err));
+        const updatedPost = post.map((item) =>
+            item.id === currentid ? {...item,
+          likes: currentisliked ? item.likes - 1 : item.likes + 1,
+          isliked: !item.isliked
+        }
+      : item
+  );
+
+  setPost(updatedPost);      
+    
     }
 
     return(

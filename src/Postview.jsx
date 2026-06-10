@@ -11,14 +11,14 @@ function Postview() {
     const [viewpost, setViewpost] = useState(null);
 
     useEffect(() => {
-        fetch(`http://localhost:3000/post/${id}`)
+        fetch(`/db.json/post/${id}`)
             .then((res) => res.json())
             .then((data) => setViewpost(data))
             .catch((err) => console.log(err));
     }, [id]);
 
     const handledelete=(id)=>{
-        axios.delete(`http://localhost:3000/post/${id}`)
+        axios.delete(`/db.json/post/${id}`)
         .then(()=> {
             alert("Post Deleted!")
             navigate('/home/profile')
