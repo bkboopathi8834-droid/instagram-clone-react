@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { useParams,Link, useNavigate } from "react-router-dom";
-import Post from "./post";
+import Post from "./Post";
 import axios from "axios";
 
 function Postview() {
