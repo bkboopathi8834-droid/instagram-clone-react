@@ -1,0 +1,520 @@
+{
+  "Log": {
+    "id": "500",
+    "loguser": "bkboopathi",
+    "logpassword": "BKBoopathi@8834"
+  },
+  "Data": [
+    {
+      "id": "1",
+      "username": "john_doe",
+      "profilePic": "https://i.pravatar.cc/150?img=1",
+      "postImage": "https://picsum.photos/id/1011/600/600",
+      "caption": "Enjoying the beautiful nature 🌿✨",
+      "likes": 1254,
+      "comments": 98,
+      "location": "Ooty, India",
+      "isVerified": true,
+      "isliked": true,
+      "timeAgo": "2h ago"
+    },
+    {
+      "id": "2",
+      "username": "sophia_art",
+      "profilePic": "https://i.pravatar.cc/150?img=5",
+      "postImage": "https://picsum.photos/id/1025/600/600",
+      "caption": "Art is not what you see, but what you make others see 🎨",
+      "likes": 3384,
+      "comments": 201,
+      "location": "Chennai, India",
+      "isVerified": false,
+      "isliked": true,
+      "timeAgo": "5h ago"
+    },
+    {
+      "id": "3",
+      "username": "travel_with_raj",
+      "profilePic": "https://i.pravatar.cc/150?img=12",
+      "postImage": "https://picsum.photos/id/1036/600/600",
+      "caption": "Mountains are calling and I must go ⛰️",
+      "likes": 7855,
+      "comments": 542,
+      "location": "Manali, India",
+      "isVerified": true,
+      "isliked": true,
+      "timeAgo": "8h ago"
+    },
+    {
+      "id": "4",
+      "username": "fitness_queen",
+      "profilePic": "https://i.pravatar.cc/150?img=20",
+      "postImage": "https://picsum.photos/id/1005/600/600",
+      "caption": "Consistency is the key 💪🔥",
+      "likes": 2310,
+      "comments": 145,
+      "location": "Bangalore, India",
+      "isVerified": false,
+      "isliked": false,
+      "timeAgo": "10h ago"
+    },
+    {
+      "id": "5",
+      "username": "foodie_world",
+      "profilePic": "https://i.pravatar.cc/150?img=33",
+      "postImage": "https://picsum.photos/id/1080/600/600",
+      "caption": "Life is better with pizza 🍕❤️",
+      "likes": 5120,
+      "comments": 310,
+      "location": "Mumbai, India",
+      "isVerified": true,
+      "isliked": false,
+      "timeAgo": "12h ago"
+    },
+    {
+      "id": "6",
+      "username": "nature_clicks",
+      "profilePic": "https://i.pravatar.cc/150?img=45",
+      "postImage": "https://picsum.photos/id/1043/600/600",
+      "caption": "Sunsets make everything better 🌅",
+      "likes": 4120,
+      "comments": 250,
+      "location": "Goa, India",
+      "isVerified": false,
+      "isliked": false,
+      "timeAgo": "1d ago"
+    },
+    {
+      "id": "7",
+      "username": "alex",
+      "profilePic": "https://i.pravatar.cc/150?img=1",
+      "postImage": "https://picsum.photos/500/500?random=1",
+      "caption": "Morning vibes 🌅",
+      "likes": 246,
+      "comments": 32,
+      "isVerified": true,
+      "isliked": true,
+      "timeAgo": "2h ago"
+    },
+    {
+      "id": "8",
+      "username": "sophia",
+      "profilePic": "https://i.pravatar.cc/150?img=2",
+      "postImage": "https://picsum.photos/500/500?random=2",
+      "caption": "Coffee + coding ☕💻",
+      "likes": 543,
+      "comments": 67,
+      "isliked": false,
+      "timeAgo": "4h ago"
+    },
+    {
+      "id": "9",
+      "username": "john",
+      "profilePic": "https://i.pravatar.cc/150?img=3",
+      "postImage": "https://picsum.photos/500/500?random=3",
+      "caption": "Weekend trip 🚗",
+      "likes": 786,
+      "comments": 91,
+      "isVerified": true,
+      "isliked": false,
+      "timeAgo": "5h ago"
+    },
+    {
+      "id": "10",
+      "username": "emma",
+      "profilePic": "https://i.pravatar.cc/150?img=4",
+      "postImage": "https://picsum.photos/500/500?random=4",
+      "caption": "Sunset lovers ❤️",
+      "likes": 1200,
+      "comments": 145,
+      "isVerified": true,
+      "isliked": false,
+      "timeAgo": "7h ago"
+    },
+    {
+      "id": "11",
+      "username": "michael",
+      "profilePic": "https://i.pravatar.cc/150?img=5",
+      "postImage": "https://picsum.photos/500/500?random=5",
+      "caption": "Gym day 💪",
+      "likes": 334,
+      "comments": 40,
+      "isliked": false,
+      "timeAgo": "9h ago"
+    },
+    {
+      "id": "12",
+      "username": "olivia",
+      "profilePic": "https://i.pravatar.cc/150?img=6",
+      "postImage": "https://picsum.photos/500/500?random=6",
+      "caption": "Beach time 🌊",
+      "likes": 980,
+      "comments": 103,
+      "isVerified": true,
+      "isliked": false,
+      "timeAgo": "11h ago"
+    },
+    {
+      "id": "13",
+      "username": "david",
+      "profilePic": "https://i.pravatar.cc/150?img=7",
+      "postImage": "https://picsum.photos/500/500?random=7",
+      "caption": "Late night coding 🔥",
+      "likes": 654,
+      "comments": 58,
+      "isliked": false,
+      "timeAgo": "13h ago"
+    },
+    {
+      "id": "14",
+      "username": "ava",
+      "profilePic": "https://i.pravatar.cc/150?img=8",
+      "postImage": "https://picsum.photos/500/500?random=8",
+      "caption": "Nature is beautiful 🌿",
+      "likes": 430,
+      "comments": 26,
+      "isliked": false,
+      "timeAgo": "15h ago"
+    },
+    {
+      "id": "15",
+      "username": "daniel",
+      "profilePic": "https://i.pravatar.cc/150?img=9",
+      "postImage": "https://picsum.photos/500/500?random=9",
+      "caption": "Football night ⚽",
+      "likes": 777,
+      "comments": 84,
+      "isVerified": true,
+      "isliked": false,
+      "timeAgo": "18h ago"
+    },
+    {
+      "id": "16",
+      "username": "mia",
+      "profilePic": "https://i.pravatar.cc/150?img=10",
+      "postImage": "https://picsum.photos/500/500?random=10",
+      "caption": "Happy moments ✨",
+      "likes": 1500,
+      "comments": 200,
+      "isVerified": true,
+      "isliked": false,
+      "timeAgo": "1d ago"
+    },
+    {
+      "id": "17",
+      "username": "alex",
+      "isVerified": true,
+      "profilePic": "https://i.pravatar.cc/150?img=1",
+      "postImage": "https://picsum.photos/500/500?random=1",
+      "caption": "Morning vibes 🌅",
+      "likes": 245,
+      "comments": 32,
+      "isliked": false,
+      "timeAgo": "2h ago"
+    },
+    {
+      "id": "18",
+      "username": "sophia",
+      "isVerified": false,
+      "profilePic": "https://i.pravatar.cc/150?img=2",
+      "postImage": "https://picsum.photos/500/500?random=2",
+      "caption": "Coffee + coding ☕💻",
+      "likes": 543,
+      "comments": 67,
+      "isliked": false,
+      "timeAgo": "4h ago"
+    },
+    {
+      "id": "19",
+      "username": "john",
+      "isVerified": true,
+      "profilePic": "https://i.pravatar.cc/150?img=3",
+      "postImage": "https://picsum.photos/500/500?random=3",
+      "caption": "Weekend trip 🚗",
+      "likes": 786,
+      "comments": 91,
+      "isliked": false,
+      "timeAgo": "5h ago"
+    },
+    {
+      "id": "20",
+      "username": "emma",
+      "isVerified": false,
+      "profilePic": "https://i.pravatar.cc/150?img=4",
+      "postImage": "https://picsum.photos/500/500?random=4",
+      "caption": "Sunset lovers ❤️",
+      "likes": 1200,
+      "comments": 145,
+      "isliked": false,
+      "timeAgo": "7h ago"
+    },
+    {
+      "id": "21",
+      "username": "michael",
+      "isVerified": true,
+      "profilePic": "https://i.pravatar.cc/150?img=5",
+      "postImage": "https://picsum.photos/500/500?random=5",
+      "caption": "Gym day 💪",
+      "likes": 334,
+      "comments": 40,
+      "isliked": false,
+      "timeAgo": "9h ago"
+    },
+    {
+      "id": "22",
+      "username": "olivia",
+      "isVerified": false,
+      "profilePic": "https://i.pravatar.cc/150?img=6",
+      "postImage": "https://picsum.photos/500/500?random=6",
+      "caption": "Beach time 🌊",
+      "likes": 980,
+      "comments": 103,
+      "isliked": false,
+      "timeAgo": "11h ago"
+    },
+    {
+      "id": "23",
+      "username": "david",
+      "isVerified": true,
+      "profilePic": "https://i.pravatar.cc/150?img=7",
+      "postImage": "https://picsum.photos/500/500?random=7",
+      "caption": "Late night coding 🔥",
+      "likes": 654,
+      "isliked": false,
+      "comments": 58,
+      "timeAgo": "13h ago"
+    },
+    {
+      "id": "24",
+      "username": "ava",
+      "isVerified": false,
+      "profilePic": "https://i.pravatar.cc/150?img=8",
+      "postImage": "https://picsum.photos/500/500?random=8",
+      "caption": "Nature is beautiful 🌿",
+      "likes": 430,
+      "comments": 26,
+      "isliked": false,
+      "timeAgo": "15h ago"
+    },
+    {
+      "id": "25",
+      "username": "daniel",
+      "isVerified": true,
+      "profilePic": "https://i.pravatar.cc/150?img=9",
+      "postImage": "https://picsum.photos/500/500?random=9",
+      "caption": "Football night ⚽",
+      "likes": 778,
+      "comments": 84,
+      "isliked": true,
+      "timeAgo": "18h ago"
+    },
+    {
+      "id": "26",
+      "username": "mia",
+      "isVerified": false,
+      "profilePic": "https://i.pravatar.cc/150?img=10",
+      "postImage": "https://picsum.photos/500/500?random=10",
+      "caption": "Happy moments ✨",
+      "likes": 1500,
+      "comments": 200,
+      "isliked": false,
+      "timeAgo": "1d ago"
+    },
+    {
+      "id": "27",
+      "username": "charlie",
+      "isVerified": true,
+      "profilePic": "https://i.pravatar.cc/150?img=11",
+      "postImage": "https://picsum.photos/500/500?random=11",
+      "caption": "Travel diaries 🌍",
+      "likes": 864,
+      "comments": 92,
+      "isliked": false,
+      "timeAgo": "1d ago"
+    },
+    {
+      "id": "28",
+      "username": "lily",
+      "isVerified": false,
+      "profilePic": "https://i.pravatar.cc/150?img=12",
+      "postImage": "https://picsum.photos/500/500?random=12",
+      "caption": "Reading books 📚",
+      "likes": 290,
+      "comments": 18,
+      "isliked": false,
+      "timeAgo": "1d ago"
+    },
+    {
+      "id": "29",
+      "username": "ryan",
+      "isVerified": true,
+      "profilePic": "https://i.pravatar.cc/150?img=13",
+      "postImage": "https://picsum.photos/500/500?random=13",
+      "caption": "Night photography 📸",
+      "likes": 1120,
+      "isliked": false,
+      "comments": 154,
+      "timeAgo": "2d ago"
+    },
+    {
+      "id": "30",
+      "username": "zoe",
+      "isVerified": false,
+      "profilePic": "https://i.pravatar.cc/150?img=14",
+      "postImage": "https://picsum.photos/500/500?random=14",
+      "caption": "Pizza party 🍕",
+      "likes": 410,
+      "isliked": false,
+      "comments": 35,
+      "timeAgo": "2d ago"
+    },
+    {
+      "id": "31",
+      "username": "leo",
+      "isVerified": true,
+      "profilePic": "https://i.pravatar.cc/150?img=15",
+      "postImage": "https://picsum.photos/500/500?random=15",
+      "caption": "Coding life 👨‍💻",
+      "likes": 1320,
+      "isliked": false,
+      "comments": 210,
+      "timeAgo": "3d ago"
+    }
+  ],
+  "profile": [
+    {
+      "id": "32",
+      "username": "alex_king",
+      "fullname": "Alex King",
+      "profilePhoto": "https://i.pravatar.cc/150?img=3",
+      "isVerified": true
+    }
+  ],
+  "suggestions": [
+    {
+      "id": "101",
+      "username": "virat.kohli",
+      "name": "Virat Kohli",
+      "profilePhoto": "https://i.pravatar.cc/150?img=11",
+      "followers": "265M followers",
+      "isVerified": true
+    },
+    {
+      "id": "102",
+      "username": "shraddhakapoor",
+      "name": "Shraddha Kapoor",
+      "profilePhoto": "https://i.pravatar.cc/150?img=12",
+      "followers": "92M followers",
+      "isVerified": true
+    },
+    {
+      "id": "104",
+      "username": "travel_diaries",
+      "name": "Travel Diaries",
+      "profilePhoto": "https://i.pravatar.cc/150?img=14",
+      "followers": "48K followers",
+      "isVerified": false
+    },
+    {
+      "id": "105",
+      "username": "cristiano",
+      "name": "Cristiano Ronaldo",
+      "profilePhoto": "https://i.pravatar.cc/150?img=15",
+      "followers": "640M followers",
+      "isVerified": true
+    },
+    {
+      "id": "106",
+      "username": "nature.clicks",
+      "name": "Nature Clicks",
+      "profilePhoto": "https://i.pravatar.cc/150?img=16",
+      "followers": "7K followers",
+      "isVerified": false
+    }
+  ],
+  "stories": [
+    {
+      "id": "201",
+      "username": "virat.kohli",
+      "profilePhoto": "https://i.pravatar.cc/150?img=11",
+      "storyPhoto": "https://picsum.photos/id/1011/500/800",
+      "isVerified": true,
+      "hasStory": true,
+      "time": "2m ago"
+    },
+    {
+      "id": "202",
+      "username": "leo_messi",
+      "profilePhoto": "https://i.pravatar.cc/150?img=12",
+      "storyPhoto": "https://picsum.photos/id/1012/500/800",
+      "isVerified": true,
+      "hasStory": true,
+      "time": "5m ago"
+    },
+    {
+      "id": "203",
+      "username": "selenagomez",
+      "profilePhoto": "https://i.pravatar.cc/150?img=13",
+      "storyPhoto": "https://picsum.photos/id/1013/500/800",
+      "isVerified": true,
+      "hasStory": true,
+      "time": "10m ago"
+    },
+    {
+      "id": "204",
+      "username": "john_doe",
+      "profilePhoto": "https://i.pravatar.cc/150?img=14",
+      "storyPhoto": "https://picsum.photos/id/1014/500/800",
+      "isVerified": false,
+      "hasStory": true,
+      "time": "15m ago"
+    },
+    {
+      "id": "205",
+      "username": "emma_watson",
+      "profilePhoto": "https://i.pravatar.cc/150?img=15",
+      "storyPhoto": "https://picsum.photos/id/1015/500/800",
+      "isVerified": true,
+      "hasStory": true,
+      "time": "20m ago"
+    },
+    {
+      "id": "206",
+      "username": "cristiano",
+      "profilePhoto": "https://i.pravatar.cc/150?img=16",
+      "storyPhoto": "https://picsum.photos/id/1016/500/800",
+      "isVerified": true,
+      "hasStory": true,
+      "time": "25m ago"
+    }
+  ],
+  "Profile": [
+    {
+      "id": "300",
+      "username": "bk._.boopathi",
+      "profilePhoto": "/images/profilephoto.jpg",
+      "name": "Boopathi K",
+      "post": "107 posts",
+      "followers": "1145 followers",
+      "following": "143 following",
+      "type": "Reel Creator",
+      "about": "𝑪𝒐𝒐𝒍 | 𝑪𝒂𝒍𝒎 | 𝑪𝒍𝒂𝒔𝒔𝒚 ",
+      "sabout": "𝑩𝒖𝒍𝒍 𝒃𝒐𝒓𝒏 𝒊𝒏 𝑫𝗲𝗰 - 𝟭𝟵👑",
+      "isVerified": true
+    }
+  ],
+  "post": [
+    {
+      "id": "n4eVDqQuSJs",
+      "image": "\\images\\IMG_0018.JPG"
+    },
+    {
+      "id": "URbMy57ltbE",
+      "image": "\\images\\IMG_0020.JPG"
+    },
+    {
+      "id": "76xnOj_zquM",
+      "image": "\\images\\professional.jpeg"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
