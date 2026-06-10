@@ -6,6 +6,11 @@ function App(){
 
     const location = useLocation();
     const Homepage = location.pathname ==='/home';
+    const user = JSON.parse(localStorage.getItem("user"));
+
+    if (!user) {
+        navigate("/login");
+    }
 
     return(
         <div>

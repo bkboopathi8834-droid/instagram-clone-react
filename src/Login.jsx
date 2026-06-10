@@ -26,25 +26,16 @@ function Login(){
          }
 
          try{
-           const response= await axios.get('http://localhost:3000/Log');
-           const data=response.data;
-           console.log(data);
+           const savedUser = {
+                        loguser: "bkboopathi",
+                        logpassword: "BKBoopathi@8834"
+                    };
            
-           const validuser= logusername.trim()===data.loguser;
-           const validpass= logpass.trim()===data.logpassword;
-
-
-           console.log("Entered Username:", logusername);
-           console.log("DB Username:", data.loguser);
-
-            console.log("Entered Password:", logpass);
-            console.log("DB Password:", data.logpassword);
-
-            console.log("validuser:", validuser);
-            console.log("validpass:", validpass);
+           const validuser= logusername.trim()===savedUser.loguser;
+           const validpass= logpass.trim()===savedUser.logpassword;
 
            if(validuser && validpass){
-            localStorage.setItem("isLoggedIn","true");
+            localStorage.setItem("user", JSON.stringify(logusername));
             navigate('/home')
            } else{
             alert("invalid username/password")

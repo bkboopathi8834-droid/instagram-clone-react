@@ -3,6 +3,7 @@ import Post from "./Post";
 import Mobnav from "./Mobnav";
 
 function Feed(){
+    
     return(
         <div className="feed">
             <div>
